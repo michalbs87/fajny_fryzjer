@@ -60,6 +60,8 @@ body {
 .logo-name-large {
   text-shadow: 1px 1px 4px #fff;
   font-size: 40px;
+  opacity: 0;
+  animation: 1s title forwards;
 }
 
 .logo-container-info {
