@@ -40,15 +40,20 @@ body {
 	padding-top: 70px;
 }
 .card-info {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+
 	width: 100%;
 	height: calc(100vh - 70px);
 	background: linear-gradient(45deg, #161616, #ffffff);
 	opacity: 0.8;
+	
 }
+.phone-bar-correction{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    padding-top: 150px;
+    }
 .logo-container {
 	height: 100px;
 	width: 100px;
@@ -57,8 +62,8 @@ body {
 .logo-name-large {
 	text-shadow: 1px 1px 4px #fff;
 	font-size: 40px;
-    opacity: 0;
-    animation: 1s title forwards;
+	opacity: 0;
+	animation: 1s title forwards;
 }
 .logo-container-info {
 	position: relative;

@@ -42,14 +42,18 @@ body {
 }
 
 .card-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   width: 100%;
   height: calc(100vh - 70px);
   background: linear-gradient(45deg, #161616, #ffffff);
   opacity: 0.8;
+}
+
+.phone-bar-correction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 150px;
 }
 
 .logo-container {
