@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  background-color: blueviolet;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.logo_svg {
+  height: 40px;
+  padding-right: 20px;
+}
+
+.logo-name {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  letter-spacing: 5px;
+}
+
+.section-info {
+  background-image: url(/img/salon.jpg);
+  background-size: cover;
+  padding-top: 70px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 70px);
+  background: linear-gradient(45deg, #161616, #ffffff);
+  opacity: 0.8;
+}
+
+.logo-container {
+  height: 100px;
+  width: 100px;
+}
+
+.logo-name-large {
+  text-shadow: 1px 1px 4px #fff;
+  font-size: 40px;
+}
+
+.logo-container-info {
+  position: relative;
+  height: 120px;
+  width: 120px;
+}
+.logo-container-info img {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  animation: 2.5s logo-load forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+.welcome-container {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+}
+
+.welcome {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  background-color: #8d915a;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 0px 10px 0px 10px;
+  animation: 2.5s welcoming forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+  transform: translateX(-50%);
+}
+
+@keyframes logo-load {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.8;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(50px);
+  }
+}
+@keyframes welcoming {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.8;
+    transform: translateY(-50px) translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-50px) translateX(-50%);
+  }
+}
+@keyframes title {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=style.css.map */
