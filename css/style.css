@@ -36,7 +36,7 @@ body {
 }
 
 .section-info {
-  background-image: url(/img/salon.jpg);
+  background-image: url(img/salon.jpg);
   background-size: cover;
   padding-top: 70px;
 }
