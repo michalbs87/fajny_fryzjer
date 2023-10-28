@@ -56,11 +56,6 @@ body {
   padding-top: 100px;
 }
 
-.logo-container {
-  height: 150px;
-  width: 150px;
-}
-
 .logo-name-large {
   text-shadow: 1px 1px 4px #fff;
   font-size: 60px;
@@ -104,8 +99,10 @@ body {
 }
 
 .chevron-down {
-  position: sticky;
-  bottom: 30px;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .chevron-img-down {
@@ -117,6 +114,7 @@ body {
 .chevron-link {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 @keyframes chev-anim {
