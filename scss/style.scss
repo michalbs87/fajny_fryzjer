@@ -40,20 +40,18 @@ body {
 	padding-top: 70px;
 }
 .card-info {
-
 	width: 100%;
 	height: calc(100vh - 70px);
 	background: linear-gradient(45deg, #161616, #ffffff);
 	opacity: 0.8;
-	
 }
-.phone-bar-correction{
-    display: flex;
+.phone-bar-correction {
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-    padding-top: 150px;
-    }
+	padding-top: 100px;
+}
 .logo-container {
 	height: 100px;
 	width: 100px;
@@ -63,7 +61,8 @@ body {
 	text-shadow: 1px 1px 4px #fff;
 	font-size: 40px;
 	opacity: 0;
-	animation: 1s title forwards;
+	animation: 2s title forwards;
+	animation-delay: 0.5s;
 }
 .logo-container-info {
 	position: relative;
@@ -75,7 +74,7 @@ body {
 		top: -50px;
 		left: 0;
 		animation: 2.5s logo-load forwards;
-		animation-delay: 1s;
+		animation-delay: 1.5s;
 		opacity: 0;
 	}
 }
@@ -93,7 +92,7 @@ body {
 	white-space: nowrap;
 	padding: 0px 10px 0px 10px;
 	animation: 2.5s welcoming forwards;
-	animation-delay: 0.5s;
+	animation-delay: 1s;
 	opacity: 0;
 	transform: translateX(-50%);
 }
