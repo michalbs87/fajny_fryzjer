@@ -13,16 +13,19 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Fajny Fryzjer</title>
+
+    <!-- color palette https://coolors.co/palette/a9b17f-8d915a-4e3e2a-31271a-243d2b-45783e-638751 -->
+
 </head>
 
 <body>
     <!-- Navigation -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid ">
             <a class="navbar-brand logo-name" href="#"><img src="img/logoFF.svg" class="logo_svg" alt="">Fajny
                 Fryzjer</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,10 +33,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active "  aria-current="page" href="#home" >Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#offer">Oferta</a>
                     </li>
 
 
@@ -47,25 +50,107 @@
 
 
     <!-- section info -->
-    <section class="section-info">
-        <div class="card-info">
-            <div class="phone-bar-correction">
-                <div class="logo-container-info"><img src="img/logoFF.svg" alt=""></div>
+    <section class="section-info" id="home">
+        <div class="mycard card-info">
 
-                <p class="logo-name logo-name-large info-text">fajny fryzjer</p>
-                <div class="welcome-container">
-                    <p class="welcome">zapraszamy do naszego salonu</p>
-                </div>
-            </div>
-            <div class="chevron-down"><a class="chevron-link" href="#"><img src="img/chevron-down.svg"
-                class="chevron-img-down" alt=""></a></div>
         </div>
-      
+        <div class="phone-bar-correction">
+            <div class="logo-container-info"><img src="img/logoFF.svg" alt=""></div>
+
+            <p class="logo-name logo-name-large info-text">fajny fryzjer</p>
+            <div class="welcome-container">
+                <p class="welcome">zapraszamy do naszego salonu</p>
+            </div>
+        </div>
+        <div class="chevron-down"><a class="chevron-link" href="#offer"><img src="img/chevron-down.svg"
+                    class="chevron-img-down" alt=""></a></div>
+
     </section>
 
-    <section class="offer"></section>
-    <section class="about-us"></section>
-    <section class="contact"></section>
+    <section class="offer" id="offer">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="img-container"><img src="./img/cutting-8096167_1280.jpg" class="d-block w-100"
+                            alt="..."></div>
+
+                    <div class="card-body">
+                        <h2 class="carousel-h2 card-text">strzyżenie damskie</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="img-container"><img src="./img/hair-1744959_1280.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="card-body bg-dark">
+                        <h2 class="carousel-h2 card-text">farbowanie</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="img-container"><img src="./img/bride-4634446_1280.jpg" class="d-block w-100 top20" alt="...">
+                    </div>
+
+                    <div class="card-body bg-dark">
+                        <h2 class="carousel-h2 card-text">stylizacja</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="img-container"><img src="./img/hairdressing-1516352_1280.jpg" class="d-block w-100 " alt="...">
+                    </div>
+
+                    <div class="card-body bg-dark">
+                        <h2 class="carousel-h2 card-text">pielęgnacja włosów</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="img-container"><img src="./img/fashion-8254063_1280.jpg" class="d-block w-100 top20" alt="...">
+                    </div>
+
+                    <div class="card-body bg-dark">
+                        <h2 class="carousel-h2 card-text">strzyżenie męskie</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="img-container"><img src="./img/close-up-image-female-hairdresser-washing-bearded-men-s-hair-before-haircut-saloon.jpg" class="d-block w-100 top20" alt="...">
+                    </div>
+
+                    <div class="card-body bg-dark">
+                        <h2 class="carousel-h2 card-text">kamuflaż siwizny</h2>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+    </section>
+    <section class="about-us" id="about-us"></section>
+    <section class="contact" id="contact"></section>
     <footer></footer>
 
 
