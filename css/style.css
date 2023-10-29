@@ -111,7 +111,7 @@ body {
   display: flex;
   justify-content: center;
   position: sticky;
-  bottom: 40px;
+  bottom: 20px;
 }
 
 .chevron-img-down {
