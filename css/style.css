@@ -109,7 +109,7 @@ body {
 
 .chevron-down {
   position: sticky;
-  bottom: 70px;
+  bottom: 60px;
   left: 50%;
   transform: translateX(-50%);
 }
