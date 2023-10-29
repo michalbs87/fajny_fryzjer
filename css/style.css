@@ -108,10 +108,10 @@ body {
 }
 
 .chevron-down {
+  display: flex;
+  justify-content: center;
   position: sticky;
   bottom: 60px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .chevron-img-down {
@@ -124,7 +124,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
+  width: 60px;
   height: 50px;
 }
 
