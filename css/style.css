@@ -9,10 +9,14 @@ body {
   width: 100vw;
   font-family: "Ubuntu", sans-serif;
   color: #fff;
-  background-color: rgb(255, 255, 255);
+  background-color: #212529;
   background-attachment: fixed;
   font-family: "Roboto", sans-serif;
   letter-spacing: 2px;
+}
+
+nav div .active {
+  font-weight: bold;
 }
 
 .navbar {
