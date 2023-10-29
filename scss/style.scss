@@ -6,14 +6,14 @@
 
 body {
 	position: relative;
-	height: 100vh;
-
+    width: 100vw;
 	font-family: "Ubuntu", sans-serif;
 	color: #fff;
 	background-color: rgb(255, 255, 255);
 	background-attachment: fixed;
 	font-family: "Roboto", sans-serif;
 	letter-spacing: 2px;
+    
 }
 //navbar
 
@@ -40,11 +40,10 @@ body {
 	width: 100%;
 	height: 100vh;
 	padding-top: 30px;
+    background-size: cover;
 }
 
-section {
-	background-size: cover;
-}
+
 
 .mycard {
 	position: absolute;
@@ -107,10 +106,11 @@ section {
 }
 
 .chevron-down {
-	position: fixed;
+	position: sticky;
 	bottom: 70px;
 	left: 50%;
 	transform: translateX(-50%);
+   
 }
 
 .chevron-img-down {

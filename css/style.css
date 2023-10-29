@@ -6,7 +6,7 @@
 
 body {
   position: relative;
-  height: 100vh;
+  width: 100vw;
   font-family: "Ubuntu", sans-serif;
   color: #fff;
   background-color: rgb(255, 255, 255);
@@ -41,9 +41,6 @@ body {
   width: 100%;
   height: 100vh;
   padding-top: 30px;
-}
-
-section {
   background-size: cover;
 }
 
@@ -111,7 +108,7 @@ section {
 }
 
 .chevron-down {
-  position: fixed;
+  position: sticky;
   bottom: 70px;
   left: 50%;
   transform: translateX(-50%);
