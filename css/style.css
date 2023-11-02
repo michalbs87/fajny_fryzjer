@@ -22,7 +22,7 @@ nav div .active {
 .navbar {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 10;
 }
 
@@ -115,7 +115,7 @@ nav div .active {
   display: flex;
   justify-content: center;
   position: sticky;
-  bottom: 20px;
+  bottom: 40px;
 }
 
 .chevron-img-down {
