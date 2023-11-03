@@ -19,7 +19,7 @@
 
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="-60" tabindex="0">
     <!-- Navigation -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
@@ -39,6 +39,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#offer">Oferta</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">O nas</a>
+                    </li>
 
 
                 </ul>
@@ -51,7 +54,7 @@
 
 
     <!-- section info -->
-    <section class="section-info" >
+    <section class="section-info">
         <div class="mycard card-info" id="home">
 
         </div>
@@ -154,7 +157,64 @@
 
 
     </section>
-    <section class="about-us" id="about-us"></section>
+
+    <!-- section about-us -->
+
+    <section class="about-us" id="about-us">
+        <h2 class="about-us-h2">o nas</h2>
+        <div id="carouselaboutus" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselaboutus" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselaboutus" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item about-us-item active">
+
+                    <div class="img-container px-5"><img src="./img/user-blue307993_1280.png" class="d-block w-100 "
+                            alt="...">
+                    </div>
+
+                    <div class="card-body bg-dark">
+                        <h3 class="carousel-h2 card-text">Ania</h3>
+                    </div>
+
+
+                </div>
+
+                <div class="carousel-item about-us-item">
+
+                    <div class="img-container px-5"><img src="./img/user-white296990_1280.png" class="d-block w-100 "
+                            alt="...">
+                    </div>
+
+                    <div class="card-body bg-dark">
+                        <h3 class="carousel-h2 card-text">Kasia</h3>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselaboutus" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselaboutus" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </section>
+
+
     <section class="contact" id="contact"></section>
     <footer></footer>
 
