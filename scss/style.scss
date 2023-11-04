@@ -7,13 +7,14 @@
 body {
 	position: relative;
 	width: 100vw;
+    height: 100vh;
 	font-family: "Ubuntu", sans-serif;
 	color: #fff;
 	background-color: #212529;
 	background-attachment: fixed;
 	font-family: "Roboto", sans-serif;
 	letter-spacing: 2px;
-	// overflow-y: scroll;
+	overflow-y: scroll;
 }
 //navbar
 nav {
