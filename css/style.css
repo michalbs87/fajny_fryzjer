@@ -15,7 +15,7 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 2px;
   overflow-y: scroll;
-  min-width: 360px;
+  min-width: 320px;
 }
 
 nav div .active {
@@ -27,18 +27,18 @@ nav div .active {
   top: 0;
   width: 100vw;
   z-index: 10;
-  min-width: 360px;
+  min-width: 320px;
 }
 
 .logo_svg {
-  height: 40px;
+  height: 35px;
   padding-right: 10px;
 }
 
 .logo-name {
   font-family: "Amatic SC", sans-serif;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   color: black;
   letter-spacing: 5px;
 }
@@ -70,7 +70,7 @@ nav div .active {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 .logo-name-large {
@@ -83,8 +83,8 @@ nav div .active {
 
 .logo-container-info {
   position: relative;
-  height: 180px;
-  width: 180px;
+  height: 150px;
+  width: 150px;
 }
 .logo-container-info img {
   position: absolute;
@@ -103,17 +103,20 @@ nav div .active {
 
 .welcome {
   position: absolute;
-  display: inline-block;
-  top: 80px;
+  top: 40px;
   left: 50%;
-  background-color: #642828;
-  text-transform: uppercase;
-  white-space: nowrap;
-  padding: 0px 10px 0px 10px;
+  text-align: center;
   animation: 2.5s welcoming forwards;
   animation-delay: 1s;
   opacity: 0;
   transform: translateX(-50%);
+}
+.welcome p {
+  display: inline-block;
+  padding: 0px 10px 0px 10px;
+  background-color: #642828;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .chevron-down {
