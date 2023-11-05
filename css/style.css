@@ -27,6 +27,7 @@ nav div .active {
   top: 0;
   width: 100vw;
   z-index: 10;
+  min-width: 360px;
 }
 
 .logo_svg {
