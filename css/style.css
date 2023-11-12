@@ -61,7 +61,7 @@ nav div .active {
 }
 
 .card-info {
-  background: linear-gradient(45deg, #161616, #ffffff);
+  background: linear-gradient(45deg, #161616, rgb(126, 126, 126));
   opacity: 0.8;
 }
 
@@ -74,7 +74,7 @@ nav div .active {
 }
 
 .logo-name-large {
-  text-shadow: 1px 1px 4px #fff;
+  text-shadow: 0px 0px 4px rgb(255, 255, 255);
   font-size: 60px;
   opacity: 0;
   animation: 2s title forwards;
@@ -113,10 +113,13 @@ nav div .active {
 }
 .welcome p {
   display: inline-block;
+  width: 180px;
   padding: 0px 10px 0px 10px;
-  background-color: #642828;
+  background-color: rgb(219, 219, 219);
   text-transform: uppercase;
   white-space: nowrap;
+  border-radius: 4px;
+  color: rgb(19, 19, 19);
 }
 
 .chevron-down {
@@ -230,6 +233,53 @@ nav div .active {
 
 .card-wraper {
   background-color: #fff;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  line-height: 1.8em;
+}
+.contact .invite {
+  margin-top: 20px;
+  text-align: center;
+}
+.contact .line {
+  height: 2px;
+  width: 80vw;
+  align-self: center;
+  margin: 25px 0 25px 0;
+  box-shadow: 0px 0px 4px #fff;
+  background-color: #ffffff;
+}
+.contact ul {
+  list-style: none;
+}
+.contact i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+.contact .fa-square-phone-flip {
+  color: rgb(68, 192, 99);
+}
+.contact .fa-square-facebook {
+  position: relative;
+  color: rgb(44, 121, 236);
+}
+.contact .white {
+  position: absolute;
+  background-color: #fff;
+  width: 80%;
+  height: 80%;
+  z-index: -1;
+  bottom: 2px;
+  left: 1px;
+}
+.contact a {
+  text-decoration: none;
+  color: #fff;
 }
 
 @keyframes chev-anim {
